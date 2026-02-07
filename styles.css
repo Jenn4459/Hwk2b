@@ -227,7 +227,10 @@ input[type=text], input[type=email], .message, select {
     .mobile {
         display: inline-block;
         padding: 0;
+    }
 
+    .title {
+        font-size: 30px;
     }
 
     #PS, #NES, #GameCube, #Dreamcast {
@@ -261,6 +264,18 @@ input[type=text], input[type=email], .message, select {
         padding: 5px 10px;
         border-radius: 25px;
     }
+
+    #about {
+        width: 65%;
+    }
+
+    #mission {
+        width: 55%;
+    }
+
+    #thanks {
+        width: 75%;
+    }
 }
   
 @media screen and (max-width: 510px) {
@@ -286,10 +301,10 @@ input[type=text], input[type=email], .message, select {
         margin: 0 100px;
         line-height: 20px;
         background-color: rgb(23, 23, 48);
-        width: 75%;
+        width: 90%;
         padding: 30px;
         display:inline-block;
-        margin: 0 8px;
+        margin: 0 auto;
         min-height: 270px;
         vertical-align: top;
         box-sizing: border-box;
@@ -321,5 +336,32 @@ input[type=text], input[type=email], .message, select {
 
     .shop {
         font-size: 30px;
+    }
+
+    #about {
+        font-size: 30px;
+        width: 65%;
+    }
+
+    #mission {
+        width: 55%;
+    }
+
+    #nav-bar {
+        font-size: 12px;
+    }
+
+    #thanks {
+        width: 75%;
+    }
+
+    .center {
+        margin: 0 auto;
+        padding: 0 16px;
+        padding-left: 0;
+        text-align: left;
+        max-width: 420px;
+        width: 100%;
+        box-sizing: border-box;
     }
 }

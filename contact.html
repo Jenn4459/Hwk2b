@@ -29,9 +29,9 @@
 
         .center {
             margin: 0 auto;
-            padding-left: 200px;
             text-align: left;
             max-width: 500px;
+            width: 25%;
         }
 
         #box {
@@ -50,6 +50,29 @@
         #box .message, #box .email {
             width: 100%;
             box-sizing: border-box;
+        }
+
+        @media screen and (max-width: 1000px) {
+            .center {
+                margin: 0 auto;
+                    text-align: left;
+                    max-width: 500px;
+                    width: 40%;
+            }
+
+            #contact {
+                font-size: 35px;
+                width: 60%;
+            }
+        }
+
+        @media screen and (max-width: 710px) {
+            .center {
+                margin: 0 auto;
+                    text-align: left;
+                    max-width: 500px;
+                    width: 60%;
+            }
         }
     </style>
 </head>
@@ -73,7 +96,7 @@
         <img src="pac (1).jpg" alt="neon-arcade" class="hero-image">    
     </div>
 
-    <h1>Contact Rewind Retro Gaming</h1>
+    <h1 id="contact">Contact Rewind Retro Gaming</h1>
     <h2>Call here: </h2>
     <p class="center">
         Phone: (617) 627-5000 <br>
