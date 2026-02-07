@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="icon" href="RW.png" type="image/png">
+    <style>
+        h1, h2{
+            text-align: center;
+            text-shadow: 2px 2px 0 #000;
+        }
+
+        h1 {
+            text-shadow: 2px 2px 0 #000;
+            font-size: 40px;
+            display: block;
+            padding-top: 20px;
+            margin: 0 auto;
+            border-bottom: 2px solid #c4452a;
+            width: 30%;
+            padding-bottom: 15px;
+        }
+
+        .center {
+            margin: 0 auto;
+            padding-left: 200px;
+            text-align: left;
+            max-width: 500px;
+        }
+
+        #box {
+            margin: 0 auto;
+            text-align: left;
+            max-width: 400px;
+            padding: 10px;
+            padding-bottom: 20px;
+            border: 2px solid #c4452a;
+            border-radius: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            background-color: rgb(23, 23, 48);
+        }
+
+        #box .message, #box .email {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container" style="text-align: left;">
+            <img src="logo1.png" alt="Logo" class="rewind" style="display: block; margin: 0 auto;">
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul class="list" id="nav-bar">
+            <li class="nav-box"><a class="nav-box" href="index.html">Home</a></li>
+            <li class="nav-box"><a class="nav-box" href="product.html#nintendo">Nintendo</a></li>
+            <li class="nav-box"><a class="nav-box" href="product.html#Playstation">Playstation</a></li>
+            <li class="nav-box"><a class="nav-box" href="product.html#sega">Sega</a></li>
+            <li class="nav-box"><a class="nav-box" href="about_us.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="hero-section">
+        <img src="pac (1).jpg" alt="neon-arcade" class="hero-image">    
+    </div>
+
+    <h1>Contact Rewind Retro Gaming</h1>
+    <h2>Call here: </h2>
+    <p class="center">
+        Phone: (617) 627-5000 <br>
+        Hours: Monday-Friday, 9:00 AM - 7:00 PM <br>
+    </p>
+    <h2>Email here: </h2>
+    <p class="center">
+        Email: jperez12@tufts.edu
+    </p>
+    <h2>Mailing:  </h2>
+    <p class="center" style="padding-bottom: 20px;">
+        177 College Ave <br>
+        Medford, MA 02155 <br>
+        United States <br>
+    </p>
+    <h2>Fill out this form for product inquiries</h2>
+    <form id="box" action="#" method="GET">
+        <label>Email:</label><br>
+        <input class="email" type="email" name="email" placeholder="Enter your email here..."><br><br>
+      
+        <label>Message:</label><br>
+        <textarea class="message" name="message" placeholder="Enter your message here..."></textarea><br><br>
+      
+        <input class="submit" type="submit" value="Send">
+    </form><br><br>
+    <footer>
+        <div class="footer">
+            <div class="info">
+            <p><p>&copy; Rewind Retro Gaming</p></p>
+        </div>
+    </footer>
+</body>
+</html>

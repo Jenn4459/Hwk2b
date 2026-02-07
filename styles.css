@@ -1,0 +1,217 @@
+.rewind {
+    width: 200px;
+    height: auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo-container {
+    background-color: rgb(23, 23, 48);
+
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(23, 23, 48);
+    display: flex;
+}
+
+.nav-box {
+    border-right: 1px solid #c4452a;
+    border-left: 1px solid #c4452a;
+    width: 100%;
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    min-height: 60px;
+    vertical-align: top;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    color: #607bbe;
+}
+
+.nav-box:hover {
+    background-color: #c4452a;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+h1, h2, h3, h4 {
+    font-family: "VT323", monospace;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+div {
+    font-family: "Courier New", Courier;
+    margin: auto;
+    text-align: center;
+}
+
+a:link {
+    font-family: "Courier New";
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #c4452a;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+body {
+    background-color: #2a273b;
+    color:  #607bbe;
+}
+
+#header-name {
+    font-size: 50px;
+    display: inline-block;
+    border-bottom: 2px solid #c4452a;
+    width: 30%;
+    padding-bottom: 15px;
+}
+
+.paragraph {
+    margin: 0 100px;
+    line-height: 30px;
+    background-color: rgb(23, 23, 48);
+    width: 75%;
+    padding: 70px;
+    display:inline-block;
+    margin: 0 8px;
+    min-height: 270px;
+    vertical-align: top;
+    box-sizing: border-box;
+    position:relative;
+    border-radius: 25px;
+}
+
+.shop {
+    font-size: 50px;
+    display: inline-block;
+    border-bottom: 2px solid #c4452a;
+    width: 30%;
+    padding-bottom: 15px;
+}
+
+.browse {
+    background-color: rgb(23, 23, 48);
+    color: #607bbe;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+#console-boxes {
+    text-align: center;
+}
+
+.box {
+    border: 1px solid #c4452a;
+    width: 20%;
+    display:inline-block;
+    margin: 0 0;
+    background-color: rgb(23, 23, 48);
+    min-height: 270px;
+    vertical-align: top;
+    box-sizing: border-box;
+    position:relative;
+    border-radius: 25px;
+}
+
+.box a:hover {
+    background-color: #c4452a;
+    color: #fff;
+}
+
+.box a:link {
+    background-color: #c4452a;
+    padding: 3px 5px;
+    border-radius: 5px; 
+}
+
+#NES, #Dreamcast, #PS, #GameCube {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.product {
+    font-size: 30px;
+}
+
+.foot {
+    color: #607bbe;
+}
+
+footer {
+    line-height: 50px;
+    background-color: rgb(23, 23, 48);
+    width: 100%;
+    display:inline-block;
+    min-height: 100px;
+    vertical-align: top;
+    box-sizing: border-box;
+    position:relative;
+}
+
+.info {
+    width: 30%;
+    display: inline-block;
+    margin: 0 0;
+    background-color: rgb(23, 23, 48);
+    min-height: 100px;
+    vertical-align: top;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+
+input[type=text], input[type=email], .message, select {
+    width: 30%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: rgb(53, 55, 70);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit {
+    background-color: #c4452a;
+    padding: 3px 5px;
+    border-radius: 5px; 
+}
