@@ -227,10 +227,15 @@ input[type=text], input[type=email], .message, select {
     .mobile {
         display: inline-block;
         padding: 0;
+
     }
 
     #PS, #NES, #GameCube, #Dreamcast {
         width: 75%;
+    }
+
+    .box {
+        width: 30%;
     }
 }
   
