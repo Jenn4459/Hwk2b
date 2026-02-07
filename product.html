@@ -38,6 +38,35 @@
             background-color: rgb(23, 23, 48);
         }
 
+        .inventory {
+            width: 90%;
+            max-width: 700px;
+            margin: 20px auto 40px auto;
+            border-collapse: collapse;
+            border-radius: 25px;
+            background-color: rgb(23, 23, 48);
+            overflow: hidden;
+            border: 1px solid #c4452a;
+}
+
+        .inventory th,
+        .inventory td {
+            border: 1px solid #c4452a;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .inventory th {
+            font-family: "VT323", monospace;
+            font-size: 22px;
+            color: #c4452a;
+        }
+
+        .inventory td {
+            font-family: "Courier New", Courier;
+        }
+
+
         @media screen and (max-width: 1000px) {
             .products {
                 font-size: 45px;
@@ -69,6 +98,46 @@
     </div>
 
     <h1 class="products">Available Products</h1>
+
+    <h2 style="text-align:center;">Most Popular Consoles in Stock</h2>
+
+<table class="inventory">
+  <tr>
+    <th>Product</th>
+    <th>Platform</th>
+    <th>Condition</th>
+    <th>Starting Price</th>
+  </tr>
+
+  <tr>
+    <td>Original NES</td>
+    <td>Nintendo</td>
+    <td>Used – Very Good</td>
+    <td>$99.99</td>
+  </tr>
+
+  <tr>
+    <td>GameCube</td>
+    <td>Nintendo</td>
+    <td>Refurbished</td>
+    <td>$129.99</td>
+  </tr>
+
+  <tr>
+    <td>PlayStation 2</td>
+    <td>Sony</td>
+    <td>Used</td>
+    <td>$129.99</td>
+  </tr>
+
+  <tr>
+    <td>Sega Dreamcast</td>
+    <td>Sega</td>
+    <td>Used</td>
+    <td>$99.99</td>
+  </tr>
+</table>
+
 
     <h1 id="nintendo">Nintendo Products</h1><br><br><br>
 
