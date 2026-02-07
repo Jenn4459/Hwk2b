@@ -237,5 +237,20 @@ input[type=text], input[type=email], .message, select {
     .box {
         width: 30%;
     }
+
+    .paragraph {
+        margin: 0 100px;
+        line-height: 20px;
+        background-color: rgb(23, 23, 48);
+        width: 75%;
+        padding: 30px;
+        display:inline-block;
+        margin: 0 8px;
+        min-height: 270px;
+        vertical-align: top;
+        box-sizing: border-box;
+        position:relative;
+        border-radius: 25px;
+    }
 }
   
