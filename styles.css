@@ -72,6 +72,10 @@ div {
     text-align: center;
 }
 
+.mobile {
+    display: none;
+}
+
 a:link {
     font-family: "Courier New";
     text-decoration: none;
@@ -215,3 +219,18 @@ input[type=text], input[type=email], .message, select {
     padding: 3px 5px;
     border-radius: 5px; 
 }
+
+@media screen and (max-width: 870px) {
+    .browse, .desktop, .product {
+        display: none;
+    }
+    .mobile {
+        display: inline-block;
+        padding: 0;
+    }
+
+    #PS, #NES, #GameCube, #Dreamcast {
+        width: 75%;
+    }
+}
+  
