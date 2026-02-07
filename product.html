@@ -47,7 +47,6 @@
             background-color: rgb(23, 23, 48);
             overflow: hidden;
             border: 1px solid #c4452a;
-            overflow-x: auto;
         }
 
         .inventory th,
@@ -75,6 +74,20 @@
 
             h1 {
                 width: 55%;
+            }
+        }
+
+        @media screen and (max-width: 350px) {
+            .inventory {
+                overflow-x: auto;
+                width: 90%;
+                max-width: 700px;
+                margin: 20px auto 40px auto;
+                border-collapse: collapse;
+                border-radius: 25px;
+                background-color: rgb(23, 23, 48);
+                /* overflow: hidden; */
+                /* border: 1px solid #c4452a; */
             }
         }
     </style>
