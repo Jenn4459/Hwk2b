@@ -220,7 +220,7 @@ input[type=text], input[type=email], .message, select {
     border-radius: 5px; 
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 1000px) {
     .browse, .desktop, .product {
         display: none;
     }
@@ -235,7 +235,9 @@ input[type=text], input[type=email], .message, select {
     }
 
     .box {
-        width: 30%;
+        margin: 15px;
+        width: 45%;
+        padding-bottom: 20px;
     }
 
     .paragraph {
@@ -252,5 +254,72 @@ input[type=text], input[type=email], .message, select {
         position:relative;
         border-radius: 25px;
     }
+
+    #browse {
+        background-color: rgb(23, 23, 48);
+        color: #607bbe;
+        padding: 5px 10px;
+        border-radius: 25px;
+    }
 }
   
+@media screen and (max-width: 510px) {
+    .browse, .desktop, .product {
+        display: none;
+    }
+    .mobile {
+        display: inline-block;
+        padding: 0;
+
+    }
+
+    #PS, #NES, #GameCube, #Dreamcast {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .box {
+        width: 75%;
+    }
+
+    .paragraph {
+        margin: 0 100px;
+        line-height: 20px;
+        background-color: rgb(23, 23, 48);
+        width: 75%;
+        padding: 30px;
+        display:inline-block;
+        margin: 0 8px;
+        min-height: 270px;
+        vertical-align: top;
+        box-sizing: border-box;
+        position:relative;
+        border-radius: 25px;
+    }
+
+    .signup {
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 75%;
+        text-align: center;
+    }
+
+    #browse {
+        background-color: rgb(23, 23, 48);
+        color: #607bbe;
+        padding: 5px 10px;
+        border-radius: 25px;
+    }
+
+    #header-name {
+        font-size: 30px;
+        display: inline-block;
+        border-bottom: 2px solid #c4452a;
+        width: 50%;
+        padding-bottom: 25px;
+    }
+
+    .shop {
+        font-size: 30px;
+    }
+}
