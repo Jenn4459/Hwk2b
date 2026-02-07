@@ -279,6 +279,10 @@ input[type=text], input[type=email], .message, select {
 }
   
 @media screen and (max-width: 510px) {
+    .nav-bar {
+        font-size: 10px;
+    }
+
     .browse, .desktop, .product {
         display: none;
     }
