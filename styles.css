@@ -1,25 +1,30 @@
+/* for logo on top of every page */
 .rewind {
     width: 200px;
     height: auto;
 }
 
+/* for nav bar bullets */
 .list {
     list-style: none;
 }
 
+/* for background color behind the logo */
 .logo-container {
-    background-color: rgb(23, 23, 48);
+    background-color: #171730;
 
 }
 
+/* nav bar as whole */
 #nav-bar {
-    list-style-type: none;
+    list-style-type: none; /* !!! */
     margin: 0;
     padding: 0;
-    background-color: rgb(23, 23, 48);
+    background-color: #171730;
     display: flex;
 }
 
+/* positioning and styling containers */
 .nav-box {
     border-right: 1px solid #c4452a;
     border-left: 1px solid #c4452a;
@@ -38,6 +43,7 @@
     color: #607bbe;
 }
 
+/* hover effect */
 .nav-box:hover {
     background-color: #c4452a;
     color: white;
@@ -72,10 +78,12 @@ div {
     text-align: center;
 }
 
+/* turn off mobile on large screen */
 .mobile {
     display: none;
 }
 
+/* start links */
 a:link {
     font-family: "Courier New";
     text-decoration: none;
@@ -93,12 +101,14 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+/* end links */
 
 body {
     background-color: #2a273b;
     color:  #607bbe;
 }
 
+/* for line below header */
 #header-name {
     font-size: 50px;
     display: inline-block;
@@ -107,10 +117,20 @@ body {
     padding-bottom: 15px;
 }
 
+.shop {
+    font-size: 50px;
+    display: inline-block;
+    border-bottom: 2px solid #c4452a;
+    width: 30%;
+    padding-bottom: 15px;
+}
+/* line below header */
+
+/* for body text */
 .paragraph {
     margin: 0 100px;
     line-height: 30px;
-    background-color: rgb(23, 23, 48);
+    background-color: #171730;
     width: 75%;
     padding: 70px;
     display:inline-block;
@@ -122,16 +142,9 @@ body {
     border-radius: 25px;
 }
 
-.shop {
-    font-size: 50px;
-    display: inline-block;
-    border-bottom: 2px solid #c4452a;
-    width: 30%;
-    padding-bottom: 15px;
-}
-
+/* browse button */
 .browse {
-    background-color: rgb(23, 23, 48);
+    background-color: #171730;
     color: #607bbe;
     padding: 5px 10px;
     border-radius: 25px;
@@ -141,12 +154,13 @@ body {
     text-align: center;
 }
 
+/* product boxes */
 .box {
     border: 1px solid #c4452a;
     width: 20%;
     display:inline-block;
     margin: 0 0;
-    background-color: rgb(23, 23, 48);
+    background-color: #171730;
     min-height: 270px;
     vertical-align: top;
     box-sizing: border-box;
@@ -154,6 +168,7 @@ body {
     border-radius: 25px;
 }
 
+/* bo link start */
 .box a:hover {
     background-color: #c4452a;
     color: #fff;
@@ -164,7 +179,9 @@ body {
     padding: 3px 5px;
     border-radius: 5px; 
 }
+/* box link end */
 
+/* for product photos */
 #NES, #Dreamcast, #PS, #GameCube {
     max-width: 150px;
     width: 100%;
@@ -182,7 +199,7 @@ body {
 
 footer {
     line-height: 50px;
-    background-color: rgb(23, 23, 48);
+    background-color: #171730;
     width: 100%;
     display:inline-block;
     min-height: 100px;
@@ -191,11 +208,12 @@ footer {
     position:relative;
 }
 
+/* for the footer */
 .info {
     width: 30%;
     display: inline-block;
     margin: 0 0;
-    background-color: rgb(23, 23, 48);
+    background-color: #171730;
     min-height: 100px;
     vertical-align: top;
     box-sizing: border-box;
@@ -203,6 +221,7 @@ footer {
     text-align: center;
 }
 
+/* styling form (mostly for homepage) */
 input[type=text], input[type=email], .message, select {
     width: 30%;
     padding: 12px;
@@ -214,12 +233,15 @@ input[type=text], input[type=email], .message, select {
     box-sizing: border-box;
 }
 
+/* submit button */
 .submit {
     background-color: #c4452a;
     padding: 3px 5px;
     border-radius: 5px; 
 }
 
+
+/* RESPONSIVE START 1000 */
 @media screen and (max-width: 1000px) {
     .browse, .desktop, .product {
         display: none;
@@ -246,7 +268,7 @@ input[type=text], input[type=email], .message, select {
     .paragraph {
         margin: 0 100px;
         line-height: 20px;
-        background-color: rgb(23, 23, 48);
+        background-color: #171730;
         width: 75%;
         padding: 30px;
         display:inline-block;
@@ -259,7 +281,7 @@ input[type=text], input[type=email], .message, select {
     }
 
     #browse {
-        background-color: rgb(23, 23, 48);
+        background-color: #171730;
         color: #607bbe;
         padding: 5px 10px;
         border-radius: 25px;
@@ -278,6 +300,7 @@ input[type=text], input[type=email], .message, select {
     }
 }
   
+/* RESPONSIVE START 510 */
 @media screen and (max-width: 510px) {
     .nav-bar {
         font-size: 10px;
@@ -304,7 +327,7 @@ input[type=text], input[type=email], .message, select {
     .paragraph {
         margin: 0 100px;
         line-height: 20px;
-        background-color: rgb(23, 23, 48);
+        background-color: #171730;
         width: 90%;
         padding: 30px;
         display:inline-block;
@@ -324,7 +347,7 @@ input[type=text], input[type=email], .message, select {
     }
 
     #browse {
-        background-color: rgb(23, 23, 48);
+        background-color: #171730;
         color: #607bbe;
         padding: 5px 10px;
         border-radius: 25px;
